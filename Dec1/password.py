@@ -1,6 +1,10 @@
 NUMBER_OF_DIAL_DIGITS = 100
 START = 50
 
+"""
+Part One
+"""
+
 position = START # the dial starts at 50
 count = 0
 
@@ -22,4 +26,4 @@ with open('Dec1/rotations.txt', 'r') as file:
         if position == 0:
             count += 1
 
-print(count) # this is the password for the chalange 1 for Dec 1, 2025
+print(count) # this is the password for part 1 for the chalange 1 for Dec 1, 2025
