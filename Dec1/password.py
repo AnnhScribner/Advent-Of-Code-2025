@@ -25,5 +25,6 @@ with open('Dec1/rotations.txt', 'r') as file:
 
         if position == 0:
             count += 1
-
+            
+print("solution for Part 1:")
 print(count) # this is the password for part 1 for the chalange 1 for Dec 1, 2025

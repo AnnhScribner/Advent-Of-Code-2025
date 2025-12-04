@@ -29,7 +29,8 @@ def main():
                 last_half = num_str[half:]
                 if first_half == last_half:
                     sum_invalid_ids += num
-
+                    
+    print("solution for Part 1:")
     print(sum_invalid_ids)
                 
 def is_valid_range(num):
